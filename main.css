@@ -1,0 +1,84 @@
+body{
+background-color: #ccc;
+
+font-family: sans-serif;
+}
+.container{
+background-color: cyan;
+max-height:auto;
+max-width: 50%;
+margin: 10px;
+}
+.my-panel{
+width: 33.3%;
+float:left;
+}
+.my-cont{
+width: 33.3%;
+float:left;
+}
+.one{
+background-color: blue;
+min-height: 15%;
+}
+.two{
+background-color: green;
+min-height: 15%;
+}
+
+
+.three{
+background-color: red;
+min-height: 15%;
+}
+.four{
+background-color: cyan;
+min-height: 15%;
+overflow: auto;
+}
+.five{
+background-color: pink;
+min-height: 15%;
+}
+.six{
+background-color: purple;
+min-height: 15%;
+}
+.seven{
+background-color: grey;
+min-height: 15%;
+
+}
+ P{
+color:#000;
+font-size: 15px;  
+}
+.left, .right {
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+.main {
+  float: left;
+  width: 60%; /* The width is 60%, by default */
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: 601px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
